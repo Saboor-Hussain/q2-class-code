@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.myH2{
+    color: white;
+}
+
+.box{
+    @apply p-12 w-1/2 text-xl text-white bg-blue-800 rounded-lg border-2 border-white
+}
+
+.myColor1{
+    @apply bg-gradient-to-tl from-indigo-500 via-purple-500 to-pink-500;
+}
+.myColor2{
+    @apply bg-gradient-to-tl from-orange-500 via-amber-500 to-yellow-500;
+}
+.myColor3{
+    @apply bg-gradient-to-tl from-lime-500 via-emerald-500 to-green-500;
+}
